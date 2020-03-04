@@ -1,0 +1,25 @@
+{
+  "name": "monmykisten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=monitor",
+    "deploy": "gcloud functions deploy monitor --env-vars-file .env.yaml --runtime nodejs10 --trigger-http --allow-unauthenticated",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://botic@github.com/botic/monmykisten.git"
+  },
+  "author": "Philipp Naderer-Puiu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/botic/monmykisten/issues"
+  },
+  "homepage": "https://github.com/botic/monmykisten#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "3.5.1",
+    "@google-cloud/functions-framework": "^1.4.0"
+  }
+}
