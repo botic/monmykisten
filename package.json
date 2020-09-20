@@ -20,6 +20,6 @@
   "homepage": "https://github.com/botic/monmykisten#readme",
   "dependencies": {
     "@google-cloud/firestore": "3.5.1",
-    "@google-cloud/functions-framework": "^1.4.0"
+    "@google-cloud/functions-framework": "^1.7.1"
   }
 }
