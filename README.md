@@ -6,7 +6,7 @@ to trigger warnings if the client stops sending new pings.
 
 ## Real World Example
 
-[[https://github.com/botic/monmykisten/blob/master/docs/example.png|alt=Deployment]]
+<img src="https://github.com/botic/monmykisten/blob/master/docs/example.png" alt="Deployment with Raspberry Pi computers" width="650" />
 
 ## Configuration
 
